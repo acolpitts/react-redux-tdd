@@ -1,0 +1,22 @@
+h3 {
+  font-family: 'Lobster', cursive;
+  color: #333;
+  margin-top: 0;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.comment-box {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: 20px;
+}
+
+.comment-box textarea {
+  font-size: 18px;
+  background: #f8f7f7;
+}
