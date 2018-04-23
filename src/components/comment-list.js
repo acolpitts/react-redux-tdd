@@ -2,7 +2,9 @@ import React from 'react';
 import { connect } from 'react-redux';
 
 const CommentList = (props) => {
+
   const list = props.comments.map((comment, i) => <li key={i}><span className='bold'>[Guest]:</span> {comment}</li>)
+
   return (
     <section className="section">
       <h3 className="center">- The Wall -</h3>
